@@ -3,9 +3,7 @@
 string = str(input ("Enter any sentence :"))
 word = str (input("Enter word to find count of occurence :"))
 arr =[]
-for i in arr:
-    if i not in arr:
-        arr.append(
+
 count =0
 arr= string.split(" ")
 for i in range (0,len(arr)):
